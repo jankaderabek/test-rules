@@ -9,6 +9,9 @@ on:
     paths-ignore:
       - ".vscode/**"
 
+permissions:
+  contents: write
+
 jobs:
   draft:
     name: Draft
