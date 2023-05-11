@@ -31,8 +31,13 @@ jobs:
         run: |
           npx changelogen --bump --output draft.md
 
+      - name: get-npm-version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@v1.3.1
+
       - name: Draft
         uses: softprops/action-gh-release@v1
         with:
           draft: true
           body_path: draft.md
+          tag_name: ${{ steps.package-version.outputs.version }}
