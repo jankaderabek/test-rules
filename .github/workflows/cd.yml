@@ -40,4 +40,4 @@ jobs:
         with:
           draft: true
           body_path: draft.md
-          tag_name: ${{ steps.package-version.outputs.version }}
+          tag_name: v1.5.0
