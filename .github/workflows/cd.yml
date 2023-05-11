@@ -35,9 +35,12 @@ jobs:
         id: package-version
         uses: martinbeentjes/npm-get-version-action@v1.3.1
 
+      - name: Print version
+        run : echo ${{ steps.package-version.outputs.current-version}}
+
       - name: Draft
         uses: softprops/action-gh-release@v1
         with:
           draft: true
           body_path: draft.md
-          tag_name: v${{ steps.package-version.outputs.version }}
+          tag_name: v${{ steps.package-version.outputs.current-version}}
