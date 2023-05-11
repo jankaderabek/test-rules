@@ -11,5 +11,8 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:jankaderabek/test-rules.git"
+  },
+  "devDependencies": {
+    "changelogen": "^0.5.3"
   }
 }
