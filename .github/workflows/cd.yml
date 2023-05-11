@@ -36,5 +36,3 @@ jobs:
         with:
           draft: true
           body_path: draft.md
-          name: New release
-          tag_name: v1.4.2
