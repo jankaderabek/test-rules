@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.6.5
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.6.4...v1.6.5)
+
+
+### 🏡 Chore
+
+  - Split steps ([f4d0ff1](https://github.com/jankaderabek/test-rules/commit/f4d0ff1))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.6.4
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.6.3...v1.6.4)
