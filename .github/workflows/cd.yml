@@ -33,4 +33,4 @@ jobs:
       - name: Release
         run: |
           npx changelogen --bump --release --push
-          npx changelogen gh --token ${{ secrets.GITHUB_TOKEN }}
+          npx changelogen gh release --token ${{ secrets.GITHUB_TOKEN }}
