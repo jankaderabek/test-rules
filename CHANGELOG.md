@@ -1,6 +1,25 @@
 # Changelog
 
 
+## v1.6.0
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.5.0...v1.6.0)
+
+
+### 🚀 Enhancements
+
+  - Third change ([535fa92](https://github.com/jankaderabek/test-rules/commit/535fa92))
+  - Fourth change ([6e9ddf2](https://github.com/jankaderabek/test-rules/commit/6e9ddf2))
+
+### 🏡 Chore
+
+  - **release:** V1.5.0 ([9a6c436](https://github.com/jankaderabek/test-rules/commit/9a6c436))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+- Ventrata Bot <jan.kaderabek@ventrata.com>
+
 ## v1.5.0
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.4.1...v1.5.0)
