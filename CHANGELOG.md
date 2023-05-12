@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.6.2
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.6.1...v1.6.2)
+
+
+### 🏡 Chore
+
+  - Publish GH release ([45b26d3](https://github.com/jankaderabek/test-rules/commit/45b26d3))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.6.1
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.6.0...v1.6.1)
