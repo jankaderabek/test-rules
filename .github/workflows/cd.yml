@@ -30,6 +30,7 @@ jobs:
           git config --global user.name "Ventrata Bot"
           git config --global user.email "jan.kaderabek@ventrata.com"
 
-      - name: draft change log
+      - name: Release
         run: |
-          npx changelogen --bump --release --push --github
+          npx changelogen --bump --release --push
+          npx changelogen gh --token ${{ secrets.GITHUB_TOKEN }}
