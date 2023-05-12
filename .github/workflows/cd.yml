@@ -25,6 +25,11 @@ jobs:
       - name: Install
         run: npm ci --ignore-scripts
 
+      - name: setup git
+        run: |
+          git config --global user.name "Ventrata Bot"
+          git config --global user.email "jan.kaderabek@ventrata.com"
+
       - name: draft change log
         run: |
           npx changelogen --release
