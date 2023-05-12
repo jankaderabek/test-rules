@@ -33,3 +33,5 @@ jobs:
       - name: draft change log
         run: |
           npx changelogen --release
+          npx changelogen gh release --token ${{ secrets.GITHUB_TOKEN }}
+          git push
