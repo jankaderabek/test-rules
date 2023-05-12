@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v1.6.1
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.6.0...v1.6.1)
+
+
+### 🏡 Chore
+
+  - **release:** V1.6.0 ([04ebed8](https://github.com/jankaderabek/test-rules/commit/04ebed8))
+  - Do everything in command ([f1f1b53](https://github.com/jankaderabek/test-rules/commit/f1f1b53))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+- Ventrata Bot <jan.kaderabek@ventrata.com>
+
 ## v1.6.0
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.5.0...v1.6.0)
