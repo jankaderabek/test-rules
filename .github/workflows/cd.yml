@@ -25,7 +25,7 @@ jobs:
 
       - name: draft change log
         run: |
-          npx changelogen gh release --bump --output draft.md
+          npx changelogen --bump --output draft.md
 
       - name: get-npm-version
         id: package-version
