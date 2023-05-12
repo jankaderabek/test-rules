@@ -30,10 +30,11 @@ jobs:
           git config --global user.name "Ventrata Bot"
           git config --global user.email "jan.kaderabek@ventrata.com"
 
-      - name: Release
-        run: |
-          npx changelogen --bump --release --push
-          npx changelogen gh release --token ${{ secrets.GITHUB_TOKEN }}
+      - name: Bump
+        run: npx changelogen --bump --release --push
+
+      - name: Publish GH
+        run: npx changelogen gh release --token ${{ secrets.GITHUB_TOKEN }}
 
       - name: Merge main back to develop
         uses: devmasx/merge-branch@master
