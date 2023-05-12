@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v1.6.4
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.6.3...v1.6.4)
+
+
+### 🩹 Fixes
+
+  - Add fifth change ([b35c20c](https://github.com/jankaderabek/test-rules/commit/b35c20c))
+
+### 🏡 Chore
+
+  - Merge main back to develop ([24d5ad4](https://github.com/jankaderabek/test-rules/commit/24d5ad4))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.6.3
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.6.2...v1.6.3)
