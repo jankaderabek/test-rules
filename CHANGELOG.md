@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.6.3
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.6.2...v1.6.3)
+
+
+### 🏡 Chore
+
+  - Correct argument for GH release ([11bbf0f](https://github.com/jankaderabek/test-rules/commit/11bbf0f))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.6.2
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.6.1...v1.6.2)
