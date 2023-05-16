@@ -3,9 +3,6 @@ name: Production
 on:
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   prepare-release:
     name: Prepare release
