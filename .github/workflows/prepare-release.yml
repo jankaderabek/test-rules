@@ -1,4 +1,4 @@
-name: Production
+name: Prepare release
 
 on:
   workflow_dispatch:
@@ -22,14 +22,14 @@ jobs:
 
       - name: setup git
         run: |
-          git config --global user.name "ventrata-bot"
+          git config --global user.name "ventrata-bot[bot]"
           git config --global user.email "ventrata-bot@ventrata.com"
-          
-      - name: Release notes
-        run: npx changelogen --output release-notes.md
 
       - name: Bump
         run: npx changelogen --bump --release --no-tag
+
+      - name: Release notes
+        run: npx changelogen --output release-notes.md
 
       - name: Extract version
         id: extract_version
