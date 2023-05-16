@@ -27,11 +27,20 @@ jobs:
 
       - name: setup git
         run: |
-          git config --global user.name "ventrata-bot"
+          git config --global user.name "ventrata-bot[bot]"
           git config --global user.email "ventrata-bot@ventrata.com"
 
-      - name: Bump
-        run: npx changelogen --bump --release --push
+      - name: Extract version
+        id: extract_version
+        uses: Saionaro/extract-package-version@v1.2.1
+
+      - name: Print version
+        run: echo ${{ steps.extract_version.outputs.version }}
+
+      - name: Push tag
+        run: |
+          git tag -a v${{ steps.extract_version.outputs.version }} -m "v${{ steps.extract_version.outputs.version }}"
+          git push origin v${{ steps.extract_version.outputs.version }}
 
       - name: Publish GH
         run: npx changelogen gh release --token ${{ secrets.GITHUB_TOKEN }}
