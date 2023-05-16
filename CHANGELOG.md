@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v1.6.8
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.6.6...v1.6.8)
+
+
+### 🏡 Chore
+
+  - Prepare release PR ([71aa92b](https://github.com/jankaderabek/test-rules/commit/71aa92b))
+  - Test creating PR ([11dcc1e](https://github.com/jankaderabek/test-rules/commit/11dcc1e))
+  - Test prepare release ([99ab186](https://github.com/jankaderabek/test-rules/commit/99ab186))
+  - Test prepare release ([4104ea6](https://github.com/jankaderabek/test-rules/commit/4104ea6))
+  - Add release notes to PR body ([e1428b9](https://github.com/jankaderabek/test-rules/commit/e1428b9))
+  - Don't adjust permissions ([5108a35](https://github.com/jankaderabek/test-rules/commit/5108a35))
+  - What happend when i add another change ([2a4e057](https://github.com/jankaderabek/test-rules/commit/2a4e057))
+  - **release:** V1.6.7 ([dc42105](https://github.com/jankaderabek/test-rules/commit/dc42105))
+
+### ❤️  Contributors
+
+- Ventrata-bot <ventrata-bot@ventrata.com>
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.6.7
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.6.6...v1.6.7)
