@@ -1,6 +1,20 @@
 # Changelog
 
 
+## v1.6.7
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.6.6...v1.6.7)
+
+
+### 🏡 Chore
+
+  - Prepare release PR ([71aa92b](https://github.com/jankaderabek/test-rules/commit/71aa92b))
+  - Test creating PR ([11dcc1e](https://github.com/jankaderabek/test-rules/commit/11dcc1e))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.6.6
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.6.5...v1.6.6)
