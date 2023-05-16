@@ -43,6 +43,7 @@ jobs:
         with:
           title: Release v${{ steps.extract_version.outputs.version }}
           body-path: release-notes.md
+          base: main
           branch: release/${{ steps.extract_version.outputs.version }}
           add-paths: |
             package.json
