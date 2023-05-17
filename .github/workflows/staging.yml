@@ -1,0 +1,22 @@
+name: Staging
+
+on:
+  push:
+    branches:
+      - "develop"
+    tags-ignore:
+      - "**"
+    paths-ignore:
+      - ".vscode/**"
+
+jobs:
+  check:
+    name: Build
+    uses: ./.github/workflows/check-template.yml
+
+  deploy:
+    name: Preview
+    uses: ./.github/workflows/deploy-template.yml
+    with:
+      subdir: staging
+      subdir_header: "Cache-Control:no-store"

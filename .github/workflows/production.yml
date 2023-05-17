@@ -1,0 +1,42 @@
+name: Production
+
+on:
+  push:
+    tags:
+      - "v**"
+
+jobs:
+  deploy:
+    name: Deploy
+    uses: ./.github/workflows/deploy-template.yml
+    with:
+      subdir: ${GITHUB_REF/refs\/tags\/v/}
+      subdir_header: "Cache-Control:no-store"
+
+  update:
+    name: Update
+    needs: [deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "npm"
+
+      - name: Install
+        run: npm ci --ignore-scripts
+
+      - name: Publish GH release
+        run: npx changelogen gh release --token ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Merge main back to develop
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          from_branch: main
+          target_branch: develop
+          github_token: ${{ secrets.GITHUB_TOKEN }}
