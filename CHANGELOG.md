@@ -1,6 +1,20 @@
 # Changelog
 
 
+## v1.10.2
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.10.1...v1.10.2)
+
+
+### 🏡 Chore
+
+  - Set commit message for merge commit ([d34a7e4](https://github.com/jankaderabek/test-rules/commit/d34a7e4))
+  - Deploy on tag ([1cd7b5c](https://github.com/jankaderabek/test-rules/commit/1cd7b5c))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.10.1
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.10.0...v1.10.1)
