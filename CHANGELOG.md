@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.12.0
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.11.0...v1.12.0)
+
+
+### 🚀 Enhancements
+
+  - Again some feat ([8875072](https://github.com/jankaderabek/test-rules/commit/8875072))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.11.0
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.10.0...v1.11.0)
