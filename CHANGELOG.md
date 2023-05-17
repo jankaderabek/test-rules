@@ -149,7 +149,7 @@
 ### ❤️  Contributors
 
 - Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
-- Ventrata Bot <jan.kaderabek@ventrata.com>
+- github Bot <jan.kaderabek@github.com>
 
 ## v1.6.0
 
@@ -168,7 +168,7 @@
 ### ❤️  Contributors
 
 - Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
-- Ventrata Bot <jan.kaderabek@ventrata.com>
+- github Bot <jan.kaderabek@github.com>
 
 ## v1.5.0
 

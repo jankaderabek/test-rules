@@ -1,0 +1,29 @@
+name: CD
+
+on:
+  workflow_call:
+    inputs:
+      subdir:
+        description: Upload to subdir
+        required: true
+        type: string
+
+      subdir_header:
+        description: Subdir header settings
+        required: true
+        type: string
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "npm"
+
+      - name: Install
+        run: echo "npm ci --ignore-scripts"

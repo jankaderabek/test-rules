@@ -1,0 +1,32 @@
+name: PR
+
+on:
+  pull_request:
+    branches:
+      - "main"
+      - "develop"
+    paths-ignore:
+      - ".vscode/**"
+
+jobs:
+  check:
+    name: Build
+    uses: ./.github/workflows/check-template.yml
+
+  deploy:
+    name: Preview
+    uses: ./.github/workflows/deploy-template.yml
+    with:
+      subdir: pr/${{ github.event.number }}
+      subdir_header: "Cache-Control:no-store"
+
+  comment:
+    needs: [deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          issue-number: ${{ github.event.number }}
+          body: Test site
+          reaction-type: "rocket"

@@ -22,14 +22,14 @@ jobs:
 
       - name: setup git
         run: |
-          git config --global user.name "ventrata-bot[bot]"
-          git config --global user.email "ventrata-bot@ventrata.com"
-
-      - name: Bump
-        run: npx changelogen --bump --release --no-tag
+          git config --global user.name "github-bot[bot]"
+          git config --global user.email "github-bot@github.com"
 
       - name: Release notes
         run: npx changelogen --output release-notes.md
+
+      - name: Bump
+        run: npx changelogen --bump --release --no-tag
 
       - name: Extract version
         id: extract_version
