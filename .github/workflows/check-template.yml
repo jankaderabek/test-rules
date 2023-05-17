@@ -16,4 +16,4 @@ jobs:
           cache: "npm"
 
       - name: Install
-        run: echo "Install"
+        run: echo "npm ci --ignore-scripts"
