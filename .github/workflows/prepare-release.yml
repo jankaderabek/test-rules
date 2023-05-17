@@ -39,12 +39,9 @@ jobs:
         run: echo ${{ steps.extract_version.outputs.version }}
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
-        with:
-          title: Release v${{ steps.extract_version.outputs.version }}
-          body-path: release-notes.md
-          base: main
-          branch: release/${{ steps.extract_version.outputs.version }}
-          add-paths: |
-            package.json
-            CHANGELOG.md
+        run: |
+          git checkout -b release/${{ steps.extract_version.outputs.version }}
+          git add package.json CHANGELOG.md release-notes.md
+          git commit -m "Release v${{ steps.extract_version.outputs.version }}"
+          git push --set-upstream origin release/${{ steps.extract_version.outputs.version }}
+          gh pr create --title "Release v${{ steps.extract_version.outputs.version }}" --body "$(cat release-notes.md)" --base main --head release/${{ steps.extract_version.outputs.version }}
