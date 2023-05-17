@@ -1,8 +1,9 @@
 name: Production
 
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - "v**"
 
 jobs:
   deploy:
@@ -11,3 +12,19 @@ jobs:
     with:
       subdir: ${GITHUB_REF/refs\/tags\/v/}
       subdir_header: "Cache-Control:no-store"
+
+  update:
+    name: Update
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish GH release
+        run: npx changelogen gh release --token ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Merge main back to develop
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          from_branch: main
+          target_branch: develop
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          message: Merge main into develop
