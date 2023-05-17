@@ -45,3 +45,5 @@ jobs:
           git commit -m "Release v${{ steps.extract_version.outputs.version }}"
           git push --set-upstream origin release/${{ steps.extract_version.outputs.version }}
           gh pr create --title "Release v${{ steps.extract_version.outputs.version }}" --body "$(cat release-notes.md)" --base main --head release/${{ steps.extract_version.outputs.version }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
