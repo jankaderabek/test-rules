@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v1.7.2
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.7.1...v1.7.2)
+
+
+### 🩹 Fixes
+
+  - Some important fix ([e39709e](https://github.com/jankaderabek/test-rules/commit/e39709e))
+
+### 🏡 Chore
+
+  - Generate notes before commit with bump ([cd4794d](https://github.com/jankaderabek/test-rules/commit/cd4794d))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.7.1
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.7.0...v1.7.1)
