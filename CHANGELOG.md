@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.10.1
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.10.0...v1.10.1)
+
+
+### 🏡 Chore
+
+  - Build is triggered by release ([636443d](https://github.com/jankaderabek/test-rules/commit/636443d))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.10.0
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.9.0...v1.10.0)
