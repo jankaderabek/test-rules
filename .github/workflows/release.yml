@@ -41,16 +41,3 @@ jobs:
         run: |
           git tag -a v${{ steps.extract_version.outputs.version }} -m "v${{ steps.extract_version.outputs.version }}"
           git push origin v${{ steps.extract_version.outputs.version }}
-
-      - name: Publish GH release
-        run: npx changelogen gh release --token ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Merge main back to develop
-        uses: devmasx/merge-branch@master
-        with:
-          type: now
-          from_branch: main
-          target_branch: develop
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          message: Merge main into develop
-
