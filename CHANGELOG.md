@@ -1,6 +1,29 @@
 # Changelog
 
 
+## v1.8.0
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.7.3...v1.8.0)
+
+
+### 🚀 Enhancements
+
+  - New cool feature ([#21](https://github.com/jankaderabek/test-rules/pull/21))
+
+### 🩹 Fixes
+
+  - Some important fix ([e39709e](https://github.com/jankaderabek/test-rules/commit/e39709e))
+
+### 🏡 Chore
+
+  - Generate notes before commit with bump ([cd4794d](https://github.com/jankaderabek/test-rules/commit/cd4794d))
+  - Update ([c4b9538](https://github.com/jankaderabek/test-rules/commit/c4b9538))
+
+### ❤️  Contributors
+
+- Jan Kaderabek ([@jankaderabek](http://github.com/jankaderabek))
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.7.3
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.7.2...v1.7.3)
