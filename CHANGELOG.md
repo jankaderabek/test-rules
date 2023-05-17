@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v1.9.0
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.8.1...v1.9.0)
+
+
+### 🚀 Enhancements
+
+  - New cool feature ([#21](https://github.com/jankaderabek/test-rules/pull/21))
+  - Test bump ([79776c8](https://github.com/jankaderabek/test-rules/commit/79776c8))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+- Jan Kaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.8.0
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.7.3...v1.8.0)
