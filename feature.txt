@@ -1,2 +1,3 @@
 some cool feature
 another change
+why git tag doesn't trigger build?

@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v1.10.0
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.9.0...v1.10.0)
+
+
+### 🚀 Enhancements
+
+  - Test trigger ([0bbc2d8](https://github.com/jankaderabek/test-rules/commit/0bbc2d8))
+
+### 🏡 Chore
+
+  - Do not crete new commit ([54534df](https://github.com/jankaderabek/test-rules/commit/54534df))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.9.0
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.8.1...v1.9.0)
