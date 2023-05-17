@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v1.11.0
+
+[compare changes](https://github.com/jankaderabek/test-rules/compare/v1.10.0...v1.11.0)
+
+
+### 🚀 Enhancements
+
+  - Final change ([4a75eda](https://github.com/jankaderabek/test-rules/commit/4a75eda))
+
+### 🏡 Chore
+
+  - Build is triggered by release ([636443d](https://github.com/jankaderabek/test-rules/commit/636443d))
+  - **release:** V1.10.1 ([3a9080b](https://github.com/jankaderabek/test-rules/commit/3a9080b))
+  - Set commit message for merge commit ([d34a7e4](https://github.com/jankaderabek/test-rules/commit/d34a7e4))
+  - Deploy on tag ([1cd7b5c](https://github.com/jankaderabek/test-rules/commit/1cd7b5c))
+  - Fix from release notes ([fad86e6](https://github.com/jankaderabek/test-rules/commit/fad86e6))
+
+### ❤️  Contributors
+
+- Jankaderabek ([@jankaderabek](http://github.com/jankaderabek))
+
 ## v1.10.1
 
 [compare changes](https://github.com/jankaderabek/test-rules/compare/v1.10.0...v1.10.1)
