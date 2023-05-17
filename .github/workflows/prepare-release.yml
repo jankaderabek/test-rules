@@ -41,8 +41,6 @@ jobs:
       - name: Create Pull Request
         run: |
           git checkout -b release/${{ steps.extract_version.outputs.version }}
-          git add package.json CHANGELOG.md release-notes.md
-          git commit -m "Release v${{ steps.extract_version.outputs.version }}"
           git push --set-upstream origin release/${{ steps.extract_version.outputs.version }}
           gh pr create --title "Release v${{ steps.extract_version.outputs.version }}" --body "$(cat release-notes.md)" --base main --head release/${{ steps.extract_version.outputs.version }}
         env:
